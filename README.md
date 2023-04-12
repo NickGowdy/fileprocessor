@@ -40,9 +40,3 @@ Example output format:
       ]
 }
 ```
-
-## Possible improvements to discuss
-
-- Reduce number of loops required to construct the data for JSON marshalling.
-- Find better solution for MarshalJSON function in order.go. I only did this because the ordering of the maps (price) kept changing.
-- Make processors more polymorphic. I would like to chose a processor using some kind of generics so they're easier to swap out.
